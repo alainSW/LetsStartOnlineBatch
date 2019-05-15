@@ -1,0 +1,170 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>de.alain</groupId>
+  <artifactId>LetKode</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <dependencies>
+  <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+<dependency>
+    <groupId>org.seleniumhq.selenium</groupId>
+    <artifactId>selenium-java</artifactId>
+    <version>3.141.59</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api -->
+<dependency>
+    <groupId>org.junit.jupiter</groupId>
+    <artifactId>junit-jupiter-api</artifactId>
+    <version>5.5.0-M1</version>
+    <scope>test</scope>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-surefire-plugin -->
+<dependency>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-surefire-plugin</artifactId>
+    <version>3.0.0-M3</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/org.junit.platform/junit-platform-surefire-provider -->
+<dependency>
+    <groupId>org.junit.platform</groupId>
+    <artifactId>junit-platform-surefire-provider</artifactId>
+    <version>1.3.2</version>
+    <scope>test</scope>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.junit.platform/junit-platform-runner -->
+<dependency>
+    <groupId>org.junit.platform</groupId>
+    <artifactId>junit-platform-runner</artifactId>
+    <version>1.5.0-M1</version>
+    <scope>test</scope>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/org.apache.maven.surefire/surefire-report-parser -->
+<dependency>
+    <groupId>org.apache.maven.surefire</groupId>
+    <artifactId>surefire-report-parser</artifactId>
+    <version>3.0.0-M3</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/com.tngtech.java/junit-dataprovider -->
+<dependency>
+    <groupId>com.tngtech.java</groupId>
+    <artifactId>junit-dataprovider</artifactId>
+    <version>1.13.1</version>
+    <scope>test</scope>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-engine -->
+<dependency>
+    <groupId>org.junit.jupiter</groupId>
+    <artifactId>junit-jupiter-engine</artifactId>
+    <version>5.5.0-M1</version>
+    <scope>test</scope>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/org.webjars.npm/select-parent -->
+<dependency>
+    <groupId>org.webjars.npm</groupId>
+    <artifactId>select-parent</artifactId>
+    <version>1.0.1</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/eu.coldrye.junit/enum-test-base -->
+<dependency>
+    <groupId>eu.coldrye.junit</groupId>
+    <artifactId>enum-test-base</artifactId>
+    <version>1.0.0</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/org.apache.maven.surefire/surefire-junit47 -->
+<dependency>
+    <groupId>org.apache.maven.surefire</groupId>
+    <artifactId>surefire-junit47</artifactId>
+    <version>3.0.0-M3</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/org.testng/testng -->
+<dependency>
+    <groupId>org.testng</groupId>
+    <artifactId>testng</artifactId>
+    <version>7.0.0-beta4</version>
+    <scope>test</scope>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
+<dependency>
+    <groupId>commons-io</groupId>
+    <artifactId>commons-io</artifactId>
+    <version>2.6</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api -->
+<dependency>
+    <groupId>org.junit.jupiter</groupId>
+    <artifactId>junit-jupiter-api</artifactId>
+    <version>5.5.0-M1</version>
+    <scope>test</scope>
+</dependency>
+
+
+<!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter -->
+<dependency>
+    <groupId>org.junit.jupiter</groupId>
+    <artifactId>junit-jupiter</artifactId>
+    <version>5.5.0-M1</version>
+    <scope>test</scope>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
+<dependency>
+    <groupId>commons-io</groupId>
+    <artifactId>commons-io</artifactId>
+    <version>2.6</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/org.apache.commons/commons-io -->
+<dependency>
+    <groupId>org.apache.commons</groupId>
+    <artifactId>commons-io</artifactId>
+    <version>1.3.2</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
+<dependency>
+    <groupId>io.github.bonigarcia</groupId>
+    <artifactId>webdrivermanager</artifactId>
+    <version>3.4.0</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/ru.sbtqa/webdrivermanager -->
+<dependency>
+    <groupId>ru.sbtqa</groupId>
+    <artifactId>webdrivermanager</artifactId>
+    <version>2.2.3</version>
+</dependency>
+
+
+
+</dependencies>
+  
+  
+ <build>
+	<plugins>
+		<plugin>
+           	<groupId>org.junit.platform</groupId>
+    		<artifactId>junit-platform-surefire-provider</artifactId>
+    		<version>1.3.2</version>
+           <dependencies>
+               <dependency>
+    				<groupId>org.junit.platform</groupId>
+    				<artifactId>junit-platform-surefire-provider</artifactId>
+    				<version>1.3.2</version>
+			   </dependency>
+           </dependencies>
+           <configuration>
+           	<additionalClasspathElements>
+           		<additionalClasspathElement>src/test/java/</additionalClasspathElement>
+           	</additionalClasspathElements>
+           </configuration>
+       </plugin>
+	</plugins>
+</build>
+
+</project>
